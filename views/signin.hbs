@@ -1,0 +1,19 @@
+ <h2>Sign in</h2>
+ 
+ <form name='input' action='/sessions' method='POST'>
+            <input type="hidden" name="redir" id="redir" value={{redir}} /><br />
+  username: <input type="text" name="username" id="username" /><br />
+  password: <input type="password" name="password" id="password" /><br />
+  <input type='submit' value='Submit' class="btn btn-primary btn-large" /><br /><br />
+</form><br />
+
+<h2>Sign up</h2><br />
+
+ <form name='input' action='/users' method='POST'>
+    
+  <li>username: <input type="text" name="username" id="username" /></li><br />
+  <li>email: <input type="text" name="email" id="email" /></li><br />
+  <li>password: <input type="password" name="password" id="password" /></li><br />
+  <li>confirm password: <input type="password" name="password_confirm" id="password_confirm" /></li><br />
+  <input type='submit' value='Submit' class="btn btn-primary btn-large" /><br /><br />
+ </form>

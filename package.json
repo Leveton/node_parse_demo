@@ -1,0 +1,9 @@
+{
+  "name": "node_parse_demo"
+  , "version": "0.0.1"
+  , "dependencies": {
+     "express": "",
+     "hbs": "",
+     "node-parse-api": ""
+  }
+}
