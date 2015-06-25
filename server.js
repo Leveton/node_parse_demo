@@ -89,7 +89,7 @@ app.post('/users', function(req, res){
  }
 });
 
-app.post('/terms', function(req, res){
+app.post('/files', function(req, res){
   data = req.body.specialRequest;
   if (data.length <= 405831){
     var time = new Date().getTime();

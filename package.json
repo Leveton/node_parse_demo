@@ -1,9 +1,25 @@
 {
-  "name": "node_parse_demo"
-  , "version": "0.0.1"
-  , "dependencies": {
-     "express": "",
-     "hbs": "",
-     "node-parse-api": ""
+  "name": "node_parse_demo",
+  "version": "0.0.1",
+  "private": true,
+  "description": "iOS and Node",
+  "main": "server.js",
+  "scripts": {
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Leveton/node_parse_demo.git"
+  },
+  "keywords": [
+    "iOS",
+    "Node"
+  ],
+  "author": "Mike Leveton",
+  "license": "MIT",
+  "dependencies": {
+    "express": "",
+    "hbs": "",
+    "node-parse-api": ""	
   }
 }
