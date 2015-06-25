@@ -20,6 +20,7 @@
   "dependencies": {
     "express": "",
     "hbs": "",
+    "body-parser": "",
     "node-parse-api": ""	
   }
 }
